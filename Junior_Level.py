@@ -237,6 +237,7 @@ fig7.update_layout(
 )
 # Sukuriama Dash aplikacija
 app = Dash(__name__)
+server = app.server
 
 # Aplikacijos struktūra
 app.layout = html.Div(children=[
